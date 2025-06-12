@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryans CLone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../images/d.png">
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <div>
+        <!-- navbar start -->
+        <nav class="mt-2 py-[27px] px-[20px] bg-black flex justify-between">
+        <!-- <p class="ml-10 text-[#555666]">LAPTOP</p> -->
+        <img src="../images/logo.png" alt="Logo" class="h-[24px] pl-8">
+        <div>
+            <input type="text" placeholder="Enter your keyword" class="w-[340px] h-[34px] justify-center px-4 py-2 m-0 placeholder-gray-400 bg-white rounded-l-lg">
+            <button class="absolute bg-green-400 w-[40px] h-[34px] rounded-r-lg" type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <ul class="flex justify-between gap-3 mr-5">
+            <li class="text-green-600 hover:text-white"><i class="fas fa-shopping-cart"></i></li>
+            <li class="text-green-600 hover:text-white"><i class="fa-solid fa-heart"></i></li>
+            <li class="text-green-600 hover:text-white"><i class="fa-solid fa-user"></i></li>
+            
+        </ul>
+        </nav>
+        <!-- navbar end -->
+
+        <!-- main Body section -->
+          <div class="grid grid-cols-5 gap-6 m-5">
+    
+            <!-- Filter Sidebar -->
+            <aside class="col-span-1 flex flex-col space-y-1 bg-white ">
+           
+                <!-- Price Range -->
+                <div class="relative mb-6 shadow p-2" >
+                    <h3 class="font-medium mb-2">Price Range</h3>
+                    <div class="absolute left-0 w-full border-b border-gray-300"></div>
+                    <div class="mt-6">
+                        <input type="range" min="0" max="999999" class="w-full">
+                    </div>
+                    <div class="flex justify-between text-sm text-gray-600">
+                    <span class="border border-gray-300 w-[50px] text-center">0</span>
+                    <span class="border border-gray-300 w-[50px] text-center">999999</span>
+                    </div>
+                </div>
+
+                <!-- Availability -->
+                <div class="relative mb-6 shadow p-2">
+                    <h3 class="font-medium mb-2">Availability</h3>
+                    <div class="absolute left-0 w-full border-b border-gray-300"></div>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" class="form-checkbox"><span>In Stock</span>
+                        </label>
+                    <label class="flex items-center space-x-2">
+                        <input type="checkbox" class="form-checkbox"><span>Pre Order</span>
+                    </label>
+                    <label class="flex items-center space-x-2">
+                        <input type="checkbox" class="form-checkbox"><span>Upcoming</span>
+                    </label>
+                </div>
+
+                <!-- Brands -->
+                <div class="relative mb-6 shadow p-2">
+                    <h3 class="font-medium mb-2">Brand</h3>
+                    <div class="absolute left-0 w-full border-b border-gray-300"></div>
+                    <label class="flex items-center space-x-2">
+                    <input type="checkbox" class="form-checkbox">
+                    <span>Apple</span>
+                    </label>
+                    <label class="flex items-center space-x-2">
+                    <input type="checkbox" class="form-checkbox">
+                    <span>Microsoft</span>
+                    </label>
+                    <label class="flex items-center space-x-2">
+                    <input type="checkbox" class="form-checkbox">
+                    <span>HP</span>
+                    </label>
+                    </label>
+                    <label class="flex items-center space-x-2">
+                    <input type="checkbox" class="form-checkbox">
+                    <span>Dell</span>
+                    </label>
+                </div>
+            </aside>
+
+            <!-- Product Grid -->
+            <section class="col-span-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Product Card Example -->
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="../images/laptop1.png" alt="Laptop" class="w-full h-50 object-cover rounded">
+                    <h3 class="font-semibold mt-2">Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR Display 48GB RAM 1TB SSD Space Black #MX313</h3>
+                    <ul class="list-disc py-5 px-3" >
+                        <li>Processor: Apple M4 Max chip with 16-core CPU, 40-core GPU, 16-core Neural Engine</li>
+                        <li>RAM: 48GB, Storage: 1TB SSD</li>
+                        <li>Display: 16.2" Liquid Retina XDR display (3456x2234)</li>
+                        <li>Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E, Bluetooth 5.3</li>
+                    </ul>
+                    <div class="flex justify-center items-baseline space-x-3">
+                        <span class="text-green-500 text-2xl "><b>120000৳</b></span>
+                        <span class="text-gray-400  line-through "><b>155000৳</b></span>
+                    </div>
+                    
+                    <button class="mt-4 bg-gray-100 hover:bg-green-200 text-green-500 px-4 py-2 w-full rounded flex items-center justify-center space-x-2">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="../images/laptop1.png" alt="Laptop" class="w-full h-50 object-cover rounded">
+                    <h3 class="font-semibold mt-2">Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR Display 48GB RAM 1TB SSD Space Black #MX313</h3>
+                    <ul class="list-disc py-5 px-3" >
+                        <li>Processor: Apple M4 Max chip with 16-core CPU, 40-core GPU, 16-core Neural Engine</li>
+                        <li>RAM: 48GB, Storage: 1TB SSD</li>
+                        <li>Display: 16.2" Liquid Retina XDR display (3456x2234)</li>
+                        <li>Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E, Bluetooth 5.3</li>
+                    </ul>
+                    <div class="flex justify-center items-baseline space-x-3">
+                        <span class="text-green-500 text-2xl "><b>120000৳</b></span>
+                        <span class="text-gray-400  line-through "><b>155000৳</b></span>
+                    </div>
+                    
+                    <button class="mt-4 bg-gray-100 hover:bg-green-200 text-green-500 px-4 py-2 w-full rounded flex items-center justify-center space-x-2">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="../images/laptop1.png" alt="Laptop" class="w-full h-50 object-cover rounded">
+                    <h3 class="font-semibold mt-2">Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR Display 48GB RAM 1TB SSD Space Black #MX313</h3>
+                    <ul class="list-disc py-5 px-3" >
+                        <li>Processor: Apple M4 Max chip with 16-core CPU, 40-core GPU, 16-core Neural Engine</li>
+                        <li>RAM: 48GB, Storage: 1TB SSD</li>
+                        <li>Display: 16.2" Liquid Retina XDR display (3456x2234)</li>
+                        <li>Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E, Bluetooth 5.3</li>
+                    </ul>
+                    <div class="flex justify-center items-baseline space-x-3">
+                        <span class="text-green-500 text-2xl "><b>120000৳</b></span>
+                        <span class="text-gray-400  line-through "><b>155000৳</b></span>
+                    </div>
+                    
+                    <button class="mt-4 bg-gray-100 hover:bg-green-200 text-green-500 px-4 py-2 w-full rounded flex items-center justify-center space-x-2">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="../images/laptop1.png" alt="Laptop" class="w-full h-50 object-cover rounded">
+                    <h3 class="font-semibold mt-2">Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR Display 48GB RAM 1TB SSD Space Black #MX313</h3>
+                    <ul class="list-disc py-5 px-3" >
+                        <li>Processor: Apple M4 Max chip with 16-core CPU, 40-core GPU, 16-core Neural Engine</li>
+                        <li>RAM: 48GB, Storage: 1TB SSD</li>
+                        <li>Display: 16.2" Liquid Retina XDR display (3456x2234)</li>
+                        <li>Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E, Bluetooth 5.3</li>
+                    </ul>
+                    <div class="flex justify-center items-baseline space-x-3">
+                        <span class="text-green-500 text-2xl "><b>120000৳</b></span>
+                        <span class="text-gray-400  line-through "><b>155000৳</b></span>
+                    </div>
+                    
+                    <button class="mt-4 bg-gray-100 hover:bg-green-200 text-green-500 px-4 py-2 w-full rounded flex items-center justify-center space-x-2">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="../images/laptop1.png" alt="Laptop" class="w-full h-50 object-cover rounded">
+                    <h3 class="font-semibold mt-2">Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR Display 48GB RAM 1TB SSD Space Black #MX313</h3>
+                    <ul class="list-disc py-5 px-3" >
+                        <li>Processor: Apple M4 Max chip with 16-core CPU, 40-core GPU, 16-core Neural Engine</li>
+                        <li>RAM: 48GB, Storage: 1TB SSD</li>
+                        <li>Display: 16.2" Liquid Retina XDR display (3456x2234)</li>
+                        <li>Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E, Bluetooth 5.3</li>
+                    </ul>
+                    <div class="flex justify-center items-baseline space-x-3">
+                        <span class="text-green-500 text-2xl "><b>120000৳</b></span>
+                        <span class="text-gray-400  line-through "><b>155000৳</b></span>
+                    </div>
+                    
+                    <button class="mt-4 bg-gray-100 hover:bg-green-200 text-green-500 px-4 py-2 w-full rounded flex items-center justify-center space-x-2">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="../images/laptop1.png" alt="Laptop" class="w-full h-50 object-cover rounded">
+                    <h3 class="font-semibold mt-2">Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR Display 48GB RAM 1TB SSD Space Black #MX313</h3>
+                    <ul class="list-disc py-5 px-3" >
+                        <li>Processor: Apple M4 Max chip with 16-core CPU, 40-core GPU, 16-core Neural Engine</li>
+                        <li>RAM: 48GB, Storage: 1TB SSD</li>
+                        <li>Display: 16.2" Liquid Retina XDR display (3456x2234)</li>
+                        <li>Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E, Bluetooth 5.3</li>
+                    </ul>
+                    <div class="flex justify-center items-baseline space-x-3">
+                        <span class="text-green-500 text-2xl "><b>120000৳</b></span>
+                        <span class="text-gray-400  line-through "><b>155000৳</b></span>
+                    </div>
+                    
+                    <button class="mt-4 bg-gray-100 hover:bg-green-200 text-green-500 px-4 py-2 w-full rounded flex items-center justify-center space-x-2">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="../images/laptop1.png" alt="Laptop" class="w-full h-50 object-cover rounded">
+                    <h3 class="font-semibold mt-2">Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR Display 48GB RAM 1TB SSD Space Black #MX313</h3>
+                    <ul class="list-disc py-5 px-3" >
+                        <li>Processor: Apple M4 Max chip with 16-core CPU, 40-core GPU, 16-core Neural Engine</li>
+                        <li>RAM: 48GB, Storage: 1TB SSD</li>
+                        <li>Display: 16.2" Liquid Retina XDR display (3456x2234)</li>
+                        <li>Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E, Bluetooth 5.3</li>
+                    </ul>
+                    <div class="flex justify-center items-baseline space-x-3">
+                        <span class="text-green-500 text-2xl "><b>120000৳</b></span>
+                        <span class="text-gray-400  line-through "><b>155000৳</b></span>
+                    </div>
+                    
+                    <button class="mt-4 bg-gray-100 hover:bg-green-200 text-green-500 px-4 py-2 w-full rounded flex items-center justify-center space-x-2">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="../images/laptop1.png" alt="Laptop" class="w-full h-50 object-cover rounded">
+                    <h3 class="font-semibold mt-2">Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR Display 48GB RAM 1TB SSD Space Black #MX313</h3>
+                    <ul class="list-disc py-5 px-3" >
+                        <li>Processor: Apple M4 Max chip with 16-core CPU, 40-core GPU, 16-core Neural Engine</li>
+                        <li>RAM: 48GB, Storage: 1TB SSD</li>
+                        <li>Display: 16.2" Liquid Retina XDR display (3456x2234)</li>
+                        <li>Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E, Bluetooth 5.3</li>
+                    </ul>
+                    <div class="flex justify-center items-baseline space-x-3">
+                        <span class="text-green-500 text-2xl "><b>120000৳</b></span>
+                        <span class="text-gray-400  line-through "><b>155000৳</b></span>
+                    </div>
+                    
+                    <button class="mt-4 bg-gray-100 hover:bg-green-200 text-green-500 px-4 py-2 w-full rounded flex items-center justify-center space-x-2">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+                
+            </section>
+    </div>
+</body>
+</html>
