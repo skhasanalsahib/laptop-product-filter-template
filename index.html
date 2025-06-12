@@ -77,14 +77,42 @@
           <aside class="hidden lg:block lg:col-span-2">
             <!-- Price Range Filter -->
             <div
-              class="border border-gray-200 rounded-lg shadow-sm mb-4 bg-white"
+              class="border border-gray-200 rounded-lg shadow-sm mb-4 pb-4 bg-white"
             >
               <!-- Heading -->
-              <div class="px-4 py-2.5 border-b border-gray-300">
-                <h3 class="font-raleway text-lg font-semibold">Price Range</h3>
+              <div class="px-4 py-2.5 border-b border-gray-300 mb-4">
+                <h3 class="font-raleway text-base font-semibold">
+                  Price Range
+                </h3>
               </div>
 
               <!-- Range Input -->
+              <div class="px-4 py-4">
+                <div class="slider">
+                  <div class="progress"></div>
+
+                  <div class="range-input">
+                    <input
+                      type="range"
+                      class="range-min"
+                      min="0"
+                      max="300000"
+                      value="0"
+                    />
+                    <input
+                      type="range"
+                      class="range-max"
+                      min="0"
+                      max="300000"
+                      value="300000"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="price-input flex justify-between px-4">
+                <input type="number" class="min-input" value="0" />
+                <input type="number" class="max-input" value="300000" />
+              </div>
             </div>
 
             <!-- Availability Filter -->
@@ -96,7 +124,9 @@
                 class="flex justify-between px-4 py-2.5 border-b border-gray-300"
               >
                 <!-- Heading -->
-                <h3 class="font-raleway text-lg font-semibold">Availability</h3>
+                <h3 class="font-raleway text-base font-semibold">
+                  Availability
+                </h3>
                 <img
                   class="arrow"
                   src="./images/ri-arrow-down-s-line.svg"
@@ -107,7 +137,7 @@
               <!-- Chekcboxes -->
               <div class="px-4 flex flex-col py-2.5">
                 <!-- in stock -->
-                <label class="checkbox-label">
+                <label class="checkbox-label text-sm">
                   <input
                     class="filter-checkbox"
                     type="checkbox"
@@ -117,7 +147,7 @@
                 </label>
 
                 <!-- pre order -->
-                <label class="checkbox-label">
+                <label class="checkbox-label text-sm">
                   <input
                     class="filter-checkbox"
                     type="checkbox"
@@ -127,7 +157,7 @@
                 </label>
 
                 <!-- up coming -->
-                <label class="checkbox-label">
+                <label class="checkbox-label text-sm">
                   <input
                     class="filter-checkbox"
                     type="checkbox"
@@ -147,7 +177,7 @@
                 class="flex justify-between px-4 py-2.5 border-b border-gray-300"
               >
                 <!-- Heading -->
-                <h3 class="font-raleway text-lg font-semibold">Brand</h3>
+                <h3 class="font-raleway text-base font-semibold">Brand</h3>
                 <img
                   class="arrow"
                   src="./images/ri-arrow-down-s-line.svg"
@@ -158,19 +188,19 @@
               <!-- Chekcboxes -->
               <div class="px-4 flex flex-col py-2.5">
                 <!-- Asus -->
-                <label class="checkbox-label">
+                <label class="checkbox-label text-sm">
                   <input class="filter-checkbox" type="checkbox" value="asus" />
                   Asus
                 </label>
 
                 <!-- HP -->
-                <label class="checkbox-label">
+                <label class="checkbox-label text-sm">
                   <input class="filter-checkbox" type="checkbox" value="hp" />
                   HP
                 </label>
 
                 <!-- Lenovo -->
-                <label class="checkbox-label">
+                <label class="checkbox-label text-sm">
                   <input
                     class="filter-checkbox"
                     type="checkbox"
@@ -180,7 +210,7 @@
                 </label>
 
                 <!-- MSI -->
-                <label class="checkbox-label">
+                <label class="checkbox-label text-sm">
                   <input class="filter-checkbox" type="checkbox" value="msi" />
                   MSI
                 </label>
@@ -837,5 +867,8 @@
       </section>
     </main>
     <!-- Main End -->
+
+    <!-- JS -->
+    <script src="./app.js"></script>
   </body>
 </html>
