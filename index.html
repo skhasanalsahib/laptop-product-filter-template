@@ -71,10 +71,29 @@
     <!-- Main Start -->
     <main>
       <!-- Filter and Product Grid -->
-      <section class="w-full py-5">
+      <section class="w-full py-5 overflow-x-hidden relative">
         <div class="max-w-[1280px] w-full mx-auto px-5 grid grid-cols-9 gap-5">
           <!-- Filter Sidebar -->
-          <aside class="hidden lg:block lg:col-span-2">
+          <aside
+            class="fixed top-0 left-0 h-screen overflow-y-scroll bg-white w-[70%] shadow-xl sm:w-[50%] md:w-[40%] lg:shadow-none lg:w-auto lg:bg-transparent px-3.5 py-5 lg:px-0 lg:py-0 lg:static lg:col-span-2"
+          >
+            <!-- Menu Toggle Using only Radio Input and CSS // Close Menu -->
+            <label
+              class="h-12 w-12 p-2 mr-0 mb-2 ml-auto block lg:hidden rounded-full bg-gray-300/50"
+            >
+              <input
+                type="radio"
+                name="toggle-menu"
+                class="close-menu hidden"
+                checked
+              />
+              <img
+                src="./images/close-fill.svg"
+                height="32"
+                width="32"
+                alt="close icon"
+              />
+            </label>
             <!-- Price Range Filter -->
             <div
               class="border border-gray-200 rounded-lg shadow-sm mb-4 pb-4 bg-white"
@@ -224,10 +243,28 @@
             <div
               class="col-span-4 flex items-center justify-between px-4 py-3 bg-white rounded-lg shadow-sm"
             >
-              <h3 class="font-bold">Laptop</h3>
+              <!-- Menu Toggle Using only Radio Input and CSS // Open Menu -->
+              <label
+                class="flex lg:hidden gap-1 bg-gray-100 text-sm items-center py-1 px-3 rounded"
+              >
+                <input
+                  type="radio"
+                  name="toggle-menu"
+                  class="open-menu hidden"
+                />
+                <img
+                  src="./images/filter-2-fill.svg"
+                  height="24"
+                  width="24"
+                  alt="filter-icon"
+                />
+                Filter
+              </label>
+
+              <h3 class="font-bold hidden lg:block">Laptop</h3>
               <div class="flex gap-5">
                 <!-- Show dropdown -->
-                <span class="hidden xl:flex items-center gap-2">
+                <span class="hidden md:flex items-center gap-2">
                   <p class="text-xs font-bold text-gray-400">Show:</p>
                   <select
                     class="bg-gray-200 rounded px-2 py-1 text-sm"
@@ -267,531 +304,6 @@
                 <div class="border-b border-gray-100 px-3.5">
                   <img
                     class="max-h-[180px] w-full object-contain"
-                    src="https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-m4-pro-space-black/macbook-pro-16-m4-pro-space-black-01-228x228.webp"
-                    alt="laptop"
-                  />
-                </div>
-
-                <!-- Product Info -->
-                <div class="px-3.5 py-3">
-                  <!-- Product Title -->
-                  <a
-                    href="#"
-                    class="font-semibold text-wrap leading-none text-hover-link"
-                  >
-                    Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR
-                    Display 48GB RAM 1TB SSD Space Black #MX313
-                  </a>
-
-                  <!-- Product Overview List -->
-                  <ul
-                    class="list-disc text-[#545454] text-sm pl-3.5 my-3 flex flex-col gap-2"
-                  >
-                    <!-- Processor -->
-                    <li>
-                      Processor: Apple M4 Max chip with 16-core CPU, 40-core
-                      GPU, 16-core Neural Engine
-                    </li>
-
-                    <!-- RAM & Storage -->
-                    <li>RAM: 48GB, Storage: 1TB SSD</li>
-
-                    <!-- Display -->
-                    <li>
-                      Display: 16.2" Liquid Retina XDR display (3456x2234)
-                    </li>
-
-                    <!-- Features -->
-                    <li>
-                      Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E,
-                      Bluetooth 5.3
-                    </li>
-                  </ul>
-
-                  <!-- Price and Buy Now -->
-                  <div class="border-t border-gray-300">
-                    <!-- Current and Old Price -->
-                    <div class="py-2 text-center">
-                      <span
-                        id="current-price"
-                        class="text-2xl font-semibold text-accent"
-                        >535,000৳</span
-                      >
-                      <span id="old-price" class="line-through text-gray-400"
-                        >571,900৳</span
-                      >
-                    </div>
-
-                    <!-- Buy Now Button -->
-                    <button
-                      class="w-full py-3 flex items-center justify-center gap-3 font-medium text-accent bg-[#73BF43]/13 rounded cursor-pointer"
-                    >
-                      <img
-                        src="./images/ri-shopping-cart-2-fill-green.svg"
-                        alt="green shoping cart icon"
-                      />
-                      Buy Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Product Card End-->
-              <!-- Product Card Start-->
-              <div class="bg-white rounded-lg shadow-sm">
-                <!-- Product Thumbnail -->
-                <div class="border-b border-gray-100 px-3.5">
-                  <img
-                    class="max-h-[180px] w-full object-cover"
-                    src="https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-m4-pro-space-black/macbook-pro-16-m4-pro-space-black-01-228x228.webp"
-                    alt="laptop"
-                  />
-                </div>
-
-                <!-- Product Info -->
-                <div class="px-3.5 py-3">
-                  <!-- Product Title -->
-                  <a
-                    href="#"
-                    class="font-semibold text-wrap leading-none text-hover-link"
-                  >
-                    Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR
-                    Display 48GB RAM 1TB SSD Space Black #MX313
-                  </a>
-
-                  <!-- Product Overview List -->
-                  <ul
-                    class="list-disc text-[#545454] text-sm pl-3.5 my-3 flex flex-col gap-2"
-                  >
-                    <!-- Processor -->
-                    <li>
-                      Processor: Apple M4 Max chip with 16-core CPU, 40-core
-                      GPU, 16-core Neural Engine
-                    </li>
-
-                    <!-- RAM & Storage -->
-                    <li>RAM: 48GB, Storage: 1TB SSD</li>
-
-                    <!-- Display -->
-                    <li>
-                      Display: 16.2" Liquid Retina XDR display (3456x2234)
-                    </li>
-
-                    <!-- Features -->
-                    <li>
-                      Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E,
-                      Bluetooth 5.3
-                    </li>
-                  </ul>
-
-                  <!-- Price and Buy Now -->
-                  <div class="border-t border-gray-300">
-                    <!-- Current and Old Price -->
-                    <div class="py-2 text-center">
-                      <span
-                        id="current-price"
-                        class="text-2xl font-semibold text-accent"
-                        >535,000৳</span
-                      >
-                      <span id="old-price" class="line-through text-gray-400"
-                        >571,900৳</span
-                      >
-                    </div>
-
-                    <!-- Buy Now Button -->
-                    <button
-                      class="w-full py-3 flex items-center justify-center gap-3 font-medium text-accent bg-[#73BF43]/13 rounded cursor-pointer"
-                    >
-                      <img
-                        src="./images/ri-shopping-cart-2-fill-green.svg"
-                        alt="green shoping cart icon"
-                      />
-                      Buy Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Product Card End-->
-              <!-- Product Card Start-->
-              <div class="bg-white rounded-lg shadow-sm">
-                <!-- Product Thumbnail -->
-                <div class="border-b border-gray-100 px-3.5">
-                  <img
-                    class="max-h-[180px] w-full object-cover"
-                    src="https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-m4-pro-space-black/macbook-pro-16-m4-pro-space-black-01-228x228.webp"
-                    alt="laptop"
-                  />
-                </div>
-
-                <!-- Product Info -->
-                <div class="px-3.5 py-3">
-                  <!-- Product Title -->
-                  <a
-                    href="#"
-                    class="font-semibold text-wrap leading-none text-hover-link"
-                  >
-                    Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR
-                    Display 48GB RAM 1TB SSD Space Black #MX313
-                  </a>
-
-                  <!-- Product Overview List -->
-                  <ul
-                    class="list-disc text-[#545454] text-sm pl-3.5 my-3 flex flex-col gap-2"
-                  >
-                    <!-- Processor -->
-                    <li>
-                      Processor: Apple M4 Max chip with 16-core CPU, 40-core
-                      GPU, 16-core Neural Engine
-                    </li>
-
-                    <!-- RAM & Storage -->
-                    <li>RAM: 48GB, Storage: 1TB SSD</li>
-
-                    <!-- Display -->
-                    <li>
-                      Display: 16.2" Liquid Retina XDR display (3456x2234)
-                    </li>
-
-                    <!-- Features -->
-                    <li>
-                      Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E,
-                      Bluetooth 5.3
-                    </li>
-                  </ul>
-
-                  <!-- Price and Buy Now -->
-                  <div class="border-t border-gray-300">
-                    <!-- Current and Old Price -->
-                    <div class="py-2 text-center">
-                      <span
-                        id="current-price"
-                        class="text-2xl font-semibold text-accent"
-                        >535,000৳</span
-                      >
-                      <span id="old-price" class="line-through text-gray-400"
-                        >571,900৳</span
-                      >
-                    </div>
-
-                    <!-- Buy Now Button -->
-                    <button
-                      class="w-full py-3 flex items-center justify-center gap-3 font-medium text-accent bg-[#73BF43]/13 rounded cursor-pointer"
-                    >
-                      <img
-                        src="./images/ri-shopping-cart-2-fill-green.svg"
-                        alt="green shoping cart icon"
-                      />
-                      Buy Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Product Card End-->
-              <!-- Product Card Start-->
-              <div class="bg-white rounded-lg shadow-sm">
-                <!-- Product Thumbnail -->
-                <div class="border-b border-gray-100 px-3.5">
-                  <img
-                    class="max-h-[180px] w-full object-cover"
-                    src="https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-m4-pro-space-black/macbook-pro-16-m4-pro-space-black-01-228x228.webp"
-                    alt="laptop"
-                  />
-                </div>
-
-                <!-- Product Info -->
-                <div class="px-3.5 py-3">
-                  <!-- Product Title -->
-                  <a
-                    href="#"
-                    class="font-semibold text-wrap leading-none text-hover-link"
-                  >
-                    Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR
-                    Display 48GB RAM 1TB SSD Space Black #MX313
-                  </a>
-
-                  <!-- Product Overview List -->
-                  <ul
-                    class="list-disc text-[#545454] text-sm pl-3.5 my-3 flex flex-col gap-2"
-                  >
-                    <!-- Processor -->
-                    <li>
-                      Processor: Apple M4 Max chip with 16-core CPU, 40-core
-                      GPU, 16-core Neural Engine
-                    </li>
-
-                    <!-- RAM & Storage -->
-                    <li>RAM: 48GB, Storage: 1TB SSD</li>
-
-                    <!-- Display -->
-                    <li>
-                      Display: 16.2" Liquid Retina XDR display (3456x2234)
-                    </li>
-
-                    <!-- Features -->
-                    <li>
-                      Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E,
-                      Bluetooth 5.3
-                    </li>
-                  </ul>
-
-                  <!-- Price and Buy Now -->
-                  <div class="border-t border-gray-300">
-                    <!-- Current and Old Price -->
-                    <div class="py-2 text-center">
-                      <span
-                        id="current-price"
-                        class="text-2xl font-semibold text-accent"
-                        >535,000৳</span
-                      >
-                      <span id="old-price" class="line-through text-gray-400"
-                        >571,900৳</span
-                      >
-                    </div>
-
-                    <!-- Buy Now Button -->
-                    <button
-                      class="w-full py-3 flex items-center justify-center gap-3 font-medium text-accent bg-[#73BF43]/13 rounded cursor-pointer"
-                    >
-                      <img
-                        src="./images/ri-shopping-cart-2-fill-green.svg"
-                        alt="green shoping cart icon"
-                      />
-                      Buy Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Product Card End-->
-              <!-- Product Card Start-->
-              <div class="bg-white rounded-lg shadow-sm">
-                <!-- Product Thumbnail -->
-                <div class="border-b border-gray-100 px-3.5">
-                  <img
-                    class="max-h-[180px] w-full object-cover"
-                    src="https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-m4-pro-space-black/macbook-pro-16-m4-pro-space-black-01-228x228.webp"
-                    alt="laptop"
-                  />
-                </div>
-
-                <!-- Product Info -->
-                <div class="px-3.5 py-3">
-                  <!-- Product Title -->
-                  <a
-                    href="#"
-                    class="font-semibold text-wrap leading-none text-hover-link"
-                  >
-                    Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR
-                    Display 48GB RAM 1TB SSD Space Black #MX313
-                  </a>
-
-                  <!-- Product Overview List -->
-                  <ul
-                    class="list-disc text-[#545454] text-sm pl-3.5 my-3 flex flex-col gap-2"
-                  >
-                    <!-- Processor -->
-                    <li>
-                      Processor: Apple M4 Max chip with 16-core CPU, 40-core
-                      GPU, 16-core Neural Engine
-                    </li>
-
-                    <!-- RAM & Storage -->
-                    <li>RAM: 48GB, Storage: 1TB SSD</li>
-
-                    <!-- Display -->
-                    <li>
-                      Display: 16.2" Liquid Retina XDR display (3456x2234)
-                    </li>
-
-                    <!-- Features -->
-                    <li>
-                      Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E,
-                      Bluetooth 5.3
-                    </li>
-                  </ul>
-
-                  <!-- Price and Buy Now -->
-                  <div class="border-t border-gray-300">
-                    <!-- Current and Old Price -->
-                    <div class="py-2 text-center">
-                      <span
-                        id="current-price"
-                        class="text-2xl font-semibold text-accent"
-                        >535,000৳</span
-                      >
-                      <span id="old-price" class="line-through text-gray-400"
-                        >571,900৳</span
-                      >
-                    </div>
-
-                    <!-- Buy Now Button -->
-                    <button
-                      class="w-full py-3 flex items-center justify-center gap-3 font-medium text-accent bg-[#73BF43]/13 rounded cursor-pointer"
-                    >
-                      <img
-                        src="./images/ri-shopping-cart-2-fill-green.svg"
-                        alt="green shoping cart icon"
-                      />
-                      Buy Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Product Card End-->
-              <!-- Product Card Start-->
-              <div class="bg-white rounded-lg shadow-sm">
-                <!-- Product Thumbnail -->
-                <div class="border-b border-gray-100 px-3.5">
-                  <img
-                    class="max-h-[180px] w-full object-cover"
-                    src="https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-m4-pro-space-black/macbook-pro-16-m4-pro-space-black-01-228x228.webp"
-                    alt="laptop"
-                  />
-                </div>
-
-                <!-- Product Info -->
-                <div class="px-3.5 py-3">
-                  <!-- Product Title -->
-                  <a
-                    href="#"
-                    class="font-semibold text-wrap leading-none text-hover-link"
-                  >
-                    Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR
-                    Display 48GB RAM 1TB SSD Space Black #MX313
-                  </a>
-
-                  <!-- Product Overview List -->
-                  <ul
-                    class="list-disc text-[#545454] text-sm pl-3.5 my-3 flex flex-col gap-2"
-                  >
-                    <!-- Processor -->
-                    <li>
-                      Processor: Apple M4 Max chip with 16-core CPU, 40-core
-                      GPU, 16-core Neural Engine
-                    </li>
-
-                    <!-- RAM & Storage -->
-                    <li>RAM: 48GB, Storage: 1TB SSD</li>
-
-                    <!-- Display -->
-                    <li>
-                      Display: 16.2" Liquid Retina XDR display (3456x2234)
-                    </li>
-
-                    <!-- Features -->
-                    <li>
-                      Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E,
-                      Bluetooth 5.3
-                    </li>
-                  </ul>
-
-                  <!-- Price and Buy Now -->
-                  <div class="border-t border-gray-300">
-                    <!-- Current and Old Price -->
-                    <div class="py-2 text-center">
-                      <span
-                        id="current-price"
-                        class="text-2xl font-semibold text-accent"
-                        >535,000৳</span
-                      >
-                      <span id="old-price" class="line-through text-gray-400"
-                        >571,900৳</span
-                      >
-                    </div>
-
-                    <!-- Buy Now Button -->
-                    <button
-                      class="w-full py-3 flex items-center justify-center gap-3 font-medium text-accent bg-[#73BF43]/13 rounded cursor-pointer"
-                    >
-                      <img
-                        src="./images/ri-shopping-cart-2-fill-green.svg"
-                        alt="green shoping cart icon"
-                      />
-                      Buy Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Product Card End-->
-              <!-- Product Card Start-->
-              <div class="bg-white rounded-lg shadow-sm">
-                <!-- Product Thumbnail -->
-                <div class="border-b border-gray-100 px-3.5">
-                  <img
-                    class="max-h-[180px] w-full object-cover"
-                    src="https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-m4-pro-space-black/macbook-pro-16-m4-pro-space-black-01-228x228.webp"
-                    alt="laptop"
-                  />
-                </div>
-
-                <!-- Product Info -->
-                <div class="px-3.5 py-3">
-                  <!-- Product Title -->
-                  <a
-                    href="#"
-                    class="font-semibold text-wrap leading-none text-hover-link"
-                  >
-                    Apple MacBook Pro 16 inch M4 Max Chip Liquid Retina XDR
-                    Display 48GB RAM 1TB SSD Space Black #MX313
-                  </a>
-
-                  <!-- Product Overview List -->
-                  <ul
-                    class="list-disc text-[#545454] text-sm pl-3.5 my-3 flex flex-col gap-2"
-                  >
-                    <!-- Processor -->
-                    <li>
-                      Processor: Apple M4 Max chip with 16-core CPU, 40-core
-                      GPU, 16-core Neural Engine
-                    </li>
-
-                    <!-- RAM & Storage -->
-                    <li>RAM: 48GB, Storage: 1TB SSD</li>
-
-                    <!-- Display -->
-                    <li>
-                      Display: 16.2" Liquid Retina XDR display (3456x2234)
-                    </li>
-
-                    <!-- Features -->
-                    <li>
-                      Features: Backlit Magic Keyboard, Touch ID, Wi-Fi 6E,
-                      Bluetooth 5.3
-                    </li>
-                  </ul>
-
-                  <!-- Price and Buy Now -->
-                  <div class="border-t border-gray-300">
-                    <!-- Current and Old Price -->
-                    <div class="py-2 text-center">
-                      <span
-                        id="current-price"
-                        class="text-2xl font-semibold text-accent"
-                        >535,000৳</span
-                      >
-                      <span id="old-price" class="line-through text-gray-400"
-                        >571,900৳</span
-                      >
-                    </div>
-
-                    <!-- Buy Now Button -->
-                    <button
-                      class="w-full py-3 flex items-center justify-center gap-3 font-medium text-accent bg-[#73BF43]/13 rounded cursor-pointer"
-                    >
-                      <img
-                        src="./images/ri-shopping-cart-2-fill-green.svg"
-                        alt="green shoping cart icon"
-                      />
-                      Buy Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Product Card End-->
-              <!-- Product Card Start-->
-              <div class="bg-white rounded-lg shadow-sm">
-                <!-- Product Thumbnail -->
-                <div class="border-b border-gray-100 px-3.5">
-                  <img
-                    class="max-h-[180px] w-full object-cover"
                     src="https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-m4-pro-space-black/macbook-pro-16-m4-pro-space-black-01-228x228.webp"
                     alt="laptop"
                   />
