@@ -1,0 +1,309 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MSI Thin A15 B7VE Ryzen 7 7735HS RTX 4050 6GB GDDR6 Graphics 15.6\" FHD Gaming Laptop",
+      "shortDescription": {
+        "Model": "Thin A15 B7VE",
+        "Processor": "AMD Ryzen 7 7735HS (3.2GHz up to 4.75GHz, 8 cores)",
+        "RAM": "16GB (2x 8GB) DDR5, Storage: 512GB SSD",
+        "Graphics": "NVIDIA GeForce RTX 4050 6GB GDDR6 Graphics",
+        "Features": "Backlit Keyboard, Dual Speakers, Wi-Fi 6E"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/thin-a15-b7ve/thin-a15-b7ve-1-228x228.webp",
+      "category": "Laptop",
+      "price": "143,000৳",
+      "discountedPrice": "135,000৳",
+      "stock": "In Stock",
+      "brand": "MSI"
+    },
+    {
+      "id": 2,
+      "title": "MSI Thin A15 B7UC Ryzen 5 7535HS RTX 3050 4GB GDDR6 Graphics 15.6\" FHD Gaming Laptop",
+      "shortDescription": {
+        "Model": "Thin A15 B7UC",
+        "Processor": "AMD Ryzen 5 7535HS (3.3GHz up to 4.55GHz, 6 cores)",
+        "RAM": "16GB (2x 8GB) DDR5, Storage: 512GB NVMe SSD",
+        "Graphics": "NVIDIA GeForce RTX 3050 4GB GDDR6 Graphics",
+        "Features": "Backlit Keyboard, Dual Speakers, Wi-Fi 6, Windows 11 Home"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/thin-15-b13ve/thin-15-b13vethin-15-b13ve-01-228x228.webp",
+      "category": "Laptop",
+      "price": "119,000৳",
+      "discountedPrice": "114,000৳",
+      "stock": "In Stock",
+      "brand": "MSI"
+    },
+    {
+      "id": 3,
+      "title": "MSI Modern 15 B7M Ryzen 5 7430U 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "Modern 15 B7M",
+        "Processor": "AMD Ryzen 5 7430U (2.4GHz up to 4.3GHz, 6 cores)",
+        "RAM": "16GB (8GB onboard + 8GB SODIMM) DDR4",
+        "Storage": "512GB NVMe SSD",
+        "Graphics": "AMD Radeon Graphics",
+        "Features": "Backlit Keyboard, Fingerprint Reader, Windows 11 Home"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-14-c7m/modern-14-c7m-01-228x228.webp",
+      "category": "Laptop",
+      "price": "89,900৳",
+      "discountedPrice": "84,900৳",
+      "stock": "Pre Order",
+      "brand": "MSI"
+    },
+    {
+      "id": 4,
+      "title": "MSI Modern 14 F13MG Core i5 1340P 14\" FHD Laptop (Urban Silver)",
+      "shortDescription": {
+        "Model": "Modern 14 F13MG",
+        "Processor": "Intel Core i5-1340P (1.9GHz up to 4.6GHz, 12 cores)",
+        "RAM": "16GB LPDDR5",
+        "Storage": "512GB NVMe SSD",
+        "Graphics": "Intel Iris Xe Graphics",
+        "Features": "Backlit Keyboard, Fingerprint Reader, Windows 11 Pro"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-14-c7m/modern-14-c7m-01-228x228.webp",
+      "category": "Laptop",
+      "price": "109,900৳",
+      "discountedPrice": "104,900৳",
+      "stock": "Up Coming",
+      "brand": "MSI"
+    },
+    {
+      "id": 5,
+      "title": "Lenovo IdeaPad 1 15IGL7 Intel Celeron N4020 15.6\" HD Laptop",
+      "shortDescription": {
+        "Model": "IdeaPad 1 15IGL7",
+        "Processor": "Intel Celeron N4020 (1.1GHz up to 2.8GHz, Dual Core)",
+        "RAM": "4GB DDR4",
+        "Storage": "128GB eMMC",
+        "Graphics": "Intel UHD Graphics 600",
+        "Features": "HD TN Display, Windows 11 in S Mode, 1 Year Warranty"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-slim-1i-15igl7/ideapad-slim-1i-15igl7-01-228x228.webp",
+      "category": "Laptop",
+      "price": "32,500৳",
+      "discountedPrice": "30,500৳",
+      "stock": "In Stock",
+      "brand": "Lenovo"
+    },
+    {
+      "id": 6,
+      "title": "Lenovo IdeaPad 1 15AMN7 AMD Athlon Silver 7120U 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "IdeaPad 1 15AMN7",
+        "Processor": "AMD Athlon Silver 7120U (2.4GHz up to 3.5GHz, 2 cores)",
+        "RAM": "8GB LPDDR5",
+        "Storage": "512GB SSD",
+        "Graphics": "AMD Radeon Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, 1 Year Warranty"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-1-15ada7/ideapad-1-15ada7-04-228x228.webp",
+      "category": "Laptop",
+      "price": "45,000৳",
+      "discountedPrice": "42,500৳",
+      "stock": "Pre Order",
+      "brand": "Lenovo"
+    },
+    {
+      "id": 7,
+      "title": "Lenovo IdeaPad Slim 3i 15IAU7 Intel Core i3-1215U 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "IdeaPad Slim 3i 15IAU7",
+        "Processor": "Intel Core i3-1215U (1.2GHz up to 4.4GHz, 6 cores)",
+        "RAM": "8GB DDR4",
+        "Storage": "512GB SSD",
+        "Graphics": "Intel UHD Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, Fingerprint Reader"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-slim-3i-15iau7/ideapad-slim-3i-15iau7-01-228x228.webp",
+      "category": "Laptop",
+      "price": "64,500৳",
+      "discountedPrice": "62,000৳",
+      "stock": "In Stock",
+      "brand": "Lenovo"
+    },
+    {
+      "id": 8,
+      "title": "Lenovo IdeaPad Slim 1 15AMN7 AMD Ryzen 3 7320U 16GB RAM 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "IdeaPad Slim 1 15AMN7",
+        "Processor": "AMD Ryzen 3 7320U (2.4GHz up to 4.1GHz, 4 cores)",
+        "RAM": "16GB LPDDR5",
+        "Storage": "512GB SSD",
+        "Graphics": "AMD Radeon 610M Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, Backlit Keyboard"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-1-15amn7-sand/ideapad-1-15amn7-sand-01-228x228.webp",
+      "category": "Laptop",
+      "price": "69,500৳",
+      "discountedPrice": "66,500৳",
+      "stock": "Up Coming",
+      "brand": "Lenovo"
+    },
+    {
+      "id": 9,
+      "title": "ASUS VivoBook Go 15 L510KA Intel Celeron N4500 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "L510KA-EJ502WS",
+        "Processor": "Intel Celeron N4500 (1.1GHz up to 2.8GHz, Dual Core)",
+        "RAM": "8GB DDR4",
+        "Storage": "256GB SSD",
+        "Graphics": "Intel UHD Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, 1 Year Warranty"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-go-15-l510ka/vivobook-go-15-l510ka-01-228x228.webp",
+      "category": "Laptop",
+      "price": "39,500৳",
+      "discountedPrice": "37,500৳",
+      "stock": "In Stock",
+      "brand": "ASUS"
+    },
+    {
+      "id": 10,
+      "title": "ASUS VivoBook Go 15 L510KA Intel Celeron N4500 15.6\" FHD Laptop (8GB/512GB)",
+      "shortDescription": {
+        "Model": "L510KA-EJ512WS",
+        "Processor": "Intel Celeron N4500 (1.1GHz up to 2.8GHz, Dual Core)",
+        "RAM": "8GB DDR4",
+        "Storage": "512GB SSD",
+        "Graphics": "Intel UHD Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, 1 Year Warranty"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-go-15-l510ka/vivobook-go-15-l510ka-01-228x228.webp",
+      "category": "Laptop",
+      "price": "42,500৳",
+      "discountedPrice": null,
+      "stock": "Up Coming",
+      "brand": "ASUS"
+    },
+    {
+      "id": 11,
+      "title": "ASUS VivoBook Go 15 E1504GA AMD Ryzen 3 7320U 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "E1504GA-LY502WS",
+        "Processor": "AMD Ryzen 3 7320U (2.4GHz up to 4.1GHz, 4 cores)",
+        "RAM": "8GB LPDDR5",
+        "Storage": "512GB SSD",
+        "Graphics": "AMD Radeon 610M Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, Fingerprint Sensor"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-go-15-e1504ga/vivobook-go-15-e1504ga-01-228x228.webp",
+      "category": "Laptop",
+      "price": "59,500৳",
+      "discountedPrice": "57,500৳",
+      "stock": "Pre Order",
+      "brand": "ASUS"
+    },
+    {
+      "id": 12,
+      "title": "ASUS VivoBook 15 F1504ZA Intel Core i3-1215U 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "F1504ZA-EJ741WS",
+        "Processor": "Intel Core i3-1215U (1.2GHz up to 4.4GHz, 6 cores)",
+        "RAM": "8GB DDR4",
+        "Storage": "512GB SSD",
+        "Graphics": "Intel UHD Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, Backlit Keyboard"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-f1504za/vivobook-15-f1504za-01-228x228.webp",
+      "category": "Laptop",
+      "price": "64,500৳",
+      "discountedPrice": "62,500৳",
+      "stock": "In Stock",
+      "brand": "ASUS"
+    },
+    {
+      "id": 13,
+      "title": "HP 15-fc0334AU AMD Ryzen 3 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "15-fc0334AU",
+        "Processor": "AMD Ryzen 3 7320U (2.4GHz up to 4.1GHz, 4 cores)",
+        "RAM": "8GB DDR4",
+        "Storage": "512GB SSD",
+        "Graphics": "AMD Radeon Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, Lightweight Design"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/hp/15-fc0334au/15-fc0334au-01-228x228.webp",
+      "category": "Laptop",
+      "price": "59,500৳",
+      "discountedPrice": "57,500৳",
+      "stock": "In Stock",
+      "brand": "HP"
+    },
+    {
+      "id": 14,
+      "title": "HP 15-fc0238AU AMD Ryzen 5 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "15-fc0238AU",
+        "Processor": "AMD Ryzen 5 7520U (2.8GHz up to 4.3GHz, 4 cores)",
+        "RAM": "8GB DDR4",
+        "Storage": "512GB SSD",
+        "Graphics": "AMD Radeon Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, Lightweight Design"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/hp/15-fc0238au/15-fc0238au-01-228x228.webp",
+      "category": "Laptop",
+      "price": "66,500৳",
+      "discountedPrice": "64,500৳",
+      "stock": "Pre Order",
+      "brand": "HP"
+    },
+    {
+      "id": 15,
+      "title": "HP 15-fc0239AU AMD Ryzen 5 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "15-fc0239AU",
+        "Processor": "AMD Ryzen 5 7520U (2.8GHz up to 4.3GHz, 4 cores)",
+        "RAM": "16GB DDR4",
+        "Storage": "512GB SSD",
+        "Graphics": "AMD Radeon Graphics",
+        "Features": "FHD IPS Display, Windows 11 Home, Backlit Keyboard"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/hp/15-fc0239au/15-fc0239au-01-228x228.webp",
+      "category": "Laptop",
+      "price": "72,500৳",
+      "discountedPrice": "70,500৳",
+      "stock": "In Stock",
+      "brand": "HP"
+    },
+    {
+      "id": 16,
+      "title": "HP 15-fc0296AU AMD Ryzen 3 15.6\" FHD Laptop",
+      "shortDescription": {
+        "Model": "15-fc0296AU",
+        "Processor": "AMD Ryzen 3 7320U (2.4GHz up to 4.1GHz, 4 cores)",
+        "RAM": "8GB DDR4",
+        "Storage": "256GB SSD",
+        "Graphics": "AMD Radeon Graphics",
+        "Features": "FHD Display, Windows 11 Home, Compact Design"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/hp/15-fc0296au/15-fc0296au-01-228x228.webp",
+      "category": "Laptop",
+      "price": "54,500৳",
+      "discountedPrice": "52,500৳",
+      "stock": "Up Coming",
+      "productCode": "HP-15-fc0296AU",
+      "brand": "HP"
+    },
+    {
+      "id": 17,
+      "title": "HP 250 G9 Intel Core i3-1215U 15.6\" HD Laptop",
+      "shortDescription": {
+        "Model": "250 G9",
+        "Processor": "Intel Core i3-1215U (1.2GHz up to 4.4GHz, 6 cores)",
+        "RAM": "8GB DDR4",
+        "Storage": "256GB SSD",
+        "Graphics": "Intel UHD Graphics",
+        "Features": "HD Display, Windows 11 Pro, Business Design"
+      },
+      "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/hp/250-g9/250-g9-01-228x228.webp",
+      "category": "Laptop",
+      "price": "58,500৳",
+      "discountedPrice": "56,500৳",
+      "stock": "In Stock",
+      "brand": "HP"
+    }
+  ]
+}
