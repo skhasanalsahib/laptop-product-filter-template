@@ -1,6 +1,6 @@
 # laptop-product-filter-template
 
-A minimal HTML, CSS, and JavaScript template for practicing product filtering. This repository includes a UI and JSON dataset, allowing users to implement their own filtering functionality based on brand or price. For the products JSON data follow this link [JSON Link](https://sujon3537.github.io/product-json/db.json).
+A minimal HTML, CSS, and JavaScript template for practicing product filtering. This repository includes a UI and JSON dataset, allowing users to implement their own filtering functionality based on brand or price. For the products JSON data follow this link [JSON Data](https://sujon3537.github.io/product-json/db.json).
 
 ## Contributors
 
@@ -9,17 +9,23 @@ Thanks to:
 - [Mohammad Shariful Islam Sujon](https://github.com/sujon3537)
 - [Md. Mehedi Hasan](https://github.com/mehedimec)
 
-## Features
+## Your Task
 
-- Filter laptops by brand
-- Filter laptops by price range
-- Responsive grid layout
-- Product cards with images and details
+Your task is to add JavaScript functionality to this product filtering template by implementing:
+
+- Brand filter - Filter laptops when user selects a brand
+- Price range filter - Show products within selected price range
+- Load and display products from the provided JSON API
+- Update product display when filters change
+
+Note: The UI components are already implemented. You only need to add the JavaScript functionality.
 
 ## Getting Started
 
 1. Clone this repository
 2. Open `index.html` in your browser
+3. The input.css is only for future tailwindCSS implementation
+4. The JSON dataset is available at [JSON Data](https://sujon3537.github.io/product-json/db.json)
 
 ## Implementation Details
 
